@@ -19,17 +19,28 @@ Currently, there are numerous cloud based identity management models offered by 
 * Providing single sign on
 
 Developers can take advantage of Azure Active Directory to provide sign on:
+
 https://github.com/AzureADSamples/WebApp-OpenIDConnect-DotNet
 
-* Reading mail from Exchange and sites from Sharepoint
+* Using tokens to consume Office 365 API:
+
+Your application can also leverage the APIs exposed by Office 365:  
+
 https://msdn.microsoft.com/en-us/office/office365/howto/add-common-consent-manually
 
 * Providing "Data.Read" claim for my own resource application
+ 
+Common consent allows support for custom claims in your own resource application:
+
 https://msdn.microsoft.com/en-us/library/azure/dn132599.aspx#BKMK_Exposing 
 
+* Defining App roles
+
+Web applications are also define application roles and include these roles into the claim token: 
+
+http://www.dushyantgill.com/blog/2014/12/10/roles-based-access-control-in-cloud-applications-using-azure-ad/ 
 
 ### **Deeper dive**
 
-* Defining App roles
 * Admin vs User level consent
 * Extending consent permissions for individual tenants
