@@ -17,8 +17,16 @@ Currently, there are numerous cloud based identity management models offered by 
 ### **Scenarios**
 
 * Providing single sign on
+
+Developers can take advantage of Azure Active Directory to provide sign on:
+https://github.com/AzureADSamples/WebApp-OpenIDConnect-DotNet
+
 * Reading mail from Exchange and sites from Sharepoint
+https://msdn.microsoft.com/en-us/office/office365/howto/add-common-consent-manually
+
 * Providing "Data.Read" claim for my own resource application
+https://msdn.microsoft.com/en-us/library/azure/dn132599.aspx#BKMK_Exposing 
+
 
 ### **Deeper dive**
 
